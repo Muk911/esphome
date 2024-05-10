@@ -116,7 +116,7 @@ public:
 
 void ZbAttribute_StateChanged(ZbAttribute *za, uint8_t *data)
 {
-  ESP_LOGI(TAG, "OnOff_StateChanged");
+  //ESP_LOGI(TAG, "ZbAttribute_StateChanged");
   ZbAttributeComponent *attr = (ZbAttributeComponent *) (za->getUserPtr());
   assert(attr);
   esphome::template_::TemplateSensor *ts = attr->getSensor();
