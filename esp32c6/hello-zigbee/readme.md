@@ -1,6 +1,6 @@
 ### Пример прошивки ESPHome для Zigbee-устройства на базе ESP32-C6 ###
 #### Сборка прошивки ####
-Взято из [примера luar123](https://github.com/luar123/esphome_zb_sensor?tab=readme-ov-file#build-esphome-zigbee-sensor).
+Взято из [примера от luar123](https://github.com/luar123/esphome_zb_sensor?tab=readme-ov-file#build-esphome-zigbee-sensor).
 После первой сборки, заканчивающейся ошибкой, необходимо:
 - скопировать файл idf_component.yml в папку .esphome/build/hello-zigbee/src/
 - добавить следующие строки в файл .esphome/build/zb-sensor/sdkconfig.hello-zigbee
