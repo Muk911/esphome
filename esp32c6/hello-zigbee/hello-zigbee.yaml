@@ -28,7 +28,6 @@ esp32:
       CONFIG_ZB_ZED: y
       CONFIG_ZB_RADIO_NATIVE: y
       ZB_ED_ROLE: y
-      CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG: n
   variant: esp32c6
 
 external_components:
