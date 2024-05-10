@@ -4,7 +4,9 @@
 После первой сборки, заканчивающейся ошибкой, необходимо:
 - скопировать файл idf_component.yml в папку .esphome/build/hello-zigbee/src/
 - добавить следующие строки в файл .esphome/build/zb-sensor/sdkconfig.hello-zigbee
+```
 CONFIG_ZB_ENABLED=y
 CONFIG_ZB_RADIO_NATIVE=y
 CONFIG_ZB_ZED=y
 ZB_ED_ROLE=y
+```
