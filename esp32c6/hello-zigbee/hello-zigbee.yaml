@@ -89,7 +89,7 @@ custom_component:
 - lambda: |-
     auto zbDevice = new ZbDeviceComponent(ESP_ZB_DEVICE_TYPE_ED);
     auto zbEndpoint1 = new ZbEndpointComponent(zbDevice, 1, ESP_ZB_AF_HA_PROFILE_ID, ESP_ZB_HA_TEST_DEVICE_ID);
-    auto zcBasic = new ZbBasicClusterComponent(zbEndpoint1, "MEA", "relay1", 1, 4);
+    auto zcBasic = new ZbBasicClusterComponent(zbEndpoint1, "MEA", "light1", 1, 4);
     auto zcOnOff = new ZbClusterComponent(zbEndpoint1, ESP_ZB_ZCL_CLUSTER_ID_ON_OFF, ESP_ZB_ZCL_CLUSTER_SERVER_ROLE);
     auto zaOnOff = new ZbAttributeComponent(zcOnOff, ESP_ZB_ZCL_ATTR_ON_OFF_ON_OFF_ID, (uint8_t) 0);
     zaOnOff->registerSensor(id(on_off_sensor));
