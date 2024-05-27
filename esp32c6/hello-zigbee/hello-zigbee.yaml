@@ -1,8 +1,8 @@
 
 esphome:
-  name: ext-comp
-  friendly_name: ext_comp
-  build_path: /config/esphome/build/ext_comp
+  name: hello-zigbee
+  friendly_name: hello-zigbee
+  build_path: /config/esphome/build/hello-zigbee
   platformio_options:
     platform: https://github.com/platformio/platform-espressif32/archive/refs/tags/v6.6.0.zip
   includes:
